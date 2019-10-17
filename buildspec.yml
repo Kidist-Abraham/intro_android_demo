@@ -5,8 +5,8 @@ phases:
     commands:
       - chmod +x ./gradlew
       - ./gradlew assembleDebug
-      - ls app
+      - ls app/build
 artifacts:
   files: 
-     - './*/build/outputs/apk/*.apk'
+     - './app/build/outputs/apk/*.apk'
   discard-paths: yes
